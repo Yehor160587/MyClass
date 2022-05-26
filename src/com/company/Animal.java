@@ -1,29 +1,29 @@
-/*package com.company;
-
-public abstract class Animal {
-
-    public void voice() {
-        System.out.println("Голос!");
-    }
+package com.company;
+class Animal {
+    void voice() {
+        System.out.println("Голос!");}
 }
 class Dog extends Animal {
+    @Override
     public void voice() {
         System.out.println("Гав-гав!");
     }
 }
-class Cat extends Animal {
-    public void voice() {
-        System.out.println("Мяу!");
-    }
-    public static void main(String[] args) {
-        Animal dog = new Dog();
-        Animal cat = new Cat();
-        dog.voice();
-        cat.voice();
-    }
-}*/
+ class Cat extends Animal {
+     @Override
+     void voice() {
+         System.out.println("Мяу!");
+     }
 
-package com.company;
+     public static void main(String[] args) {
+         Animal dog = new Dog();
+         Animal cat = new Cat();
+         dog.voice();
+         cat.voice();
+     }
+ }
+
+/*package com.company;
 
  abstract class Animal {
     void voice() {
@@ -50,4 +50,4 @@ package com.company;
          Cat myCat = new Cat();
          myCat.voice();
      }
- }
+ }*/
