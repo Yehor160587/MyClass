@@ -155,7 +155,7 @@ int showStringLength(String str) {
         public class B extends A implements I1, I2 { }
  }*/
 
-package com.company;
+/*package com.company;
  public class Main {
          String name;
 
@@ -180,7 +180,7 @@ package com.company;
          main.display();
          System.out.println();
      }
- }
+ }*/
  /*package com.company;
  public class Main {
     public static void main(String[] args) {
