@@ -176,12 +176,10 @@ int showStringLength(String str) {
 
      public static void main(String[] args) {
          Main main = new Main();
-         main.getName();
          main.display();
-         System.out.println();
      }
  }*/
- /*package com.company;
+ package com.company;
  public class Main {
     public static void main(String[] args) {
         Person tom = new Person("Tom");
@@ -209,4 +207,4 @@ int showStringLength(String str) {
      public void display(){
          System.out.printf("Employee %s works in %s \n", super.getName(), company);
      }
- }*/
+ }
