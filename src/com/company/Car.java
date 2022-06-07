@@ -1,4 +1,4 @@
-package com.company;
+/*package com.company;
 
 public class Car { private String Brand;
     public Car(String Brand) {
@@ -18,6 +18,30 @@ public class Car { private String Brand;
        car.toString();
        System.out.print(car.Brand);
     }
-}
+}*/
+
+package com.company;
+public class Car {
+    private String Color;
+    private String Brand;
+        Car () {System.out.println("Calling The Constructor");}
+        public Car setColor(String Color) {
+            this.Color = Color;
+            return this;
+        }
+        public Car setBrand(String Brand) {
+            this.Brand = Brand;
+            return this;}
+
+        void showCar() {
+            System.out.println("showCar=" + Color + " " + Brand);}
+
+        public static void main(String[] args) {new Car ().setColor("Black").setBrand("BMW").showCar();
+        }
+    }
+
+
+
+
 
 
